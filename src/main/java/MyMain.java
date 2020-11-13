@@ -16,7 +16,7 @@ public class MyMain {
     // Returns true if there is an int that appears in both lists
     public static boolean checkDuplicates(ArrayList<Integer> list1, ArrayList<Integer> list2) { 
         for(int i = 0; i<list1.size(); i++){
-            for(int d = i; d<list2.size(); d++){
+            for(int d = 0; d<list2.size(); d++){
                 if(list1.get(i) == list2.get(d)){
                     return true;
                 }
